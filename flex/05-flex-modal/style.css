@@ -29,6 +29,7 @@ body {
   align-items: center;
   justify-content: center;
   /* gap: 10px; - This also didn't seem to work as I expected. It didn't space items out, so I ended up manually applying margins on the elements I needed */
+}
 
 .header {
   font-weight: 900;
@@ -66,7 +67,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: -10px;
+  flex-shrink: 0;
 }
 
 button {
