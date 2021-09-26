@@ -27,19 +27,14 @@ input {
 }
 
 /* Added Elements */
-
-* {
-  border: 1px red solid;
-}
-
 body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-a {
-  color: #000;
+a, button {
+  color: rgba(22, 21, 21, 0.705);
   text-decoration: none;
 }
 
